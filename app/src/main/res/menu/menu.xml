@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="Main Activity"
+        app:showAsAction="never"
+        android:icon="@drawable/home"/>
+
+
+    <item
+        android:id="@+id/recyclerview"
+        android:title="Recycler View Activity"
+        app:showAsAction="never"
+        android:icon="@drawable/list"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/person"
+        app:showAsAction="never"
+        />
+
+</menu>
